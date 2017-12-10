@@ -1,0 +1,15 @@
+os:
+    - linux
+
+language: python
+python:
+    - "3.6"
+
+install:
+    - pip install coveralls
+
+script:
+    - coverage run  --source server_lib  -m unittest discover tests
+
+after_success:
+    coveralls
