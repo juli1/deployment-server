@@ -8,6 +8,7 @@ python:
 install:
     - pip install coveralls
     - pip install -r requirements.txt
+    - mkdir -p /tmp/deployment
 
 script:
     - coverage run  --source server_lib  -m unittest discover tests
