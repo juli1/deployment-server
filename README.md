@@ -1,3 +1,6 @@
+[![Build status](https://travis-ci.org/juli1/deployment-server.svg?master)](https://travis-ci.org/juli1)
+[![Coverage Status](https://coveralls.io/repos/github/juli1/deployment-server/badge.svg?branch=master)](https://coveralls.io/github/juli1/deployment-server?branch=master)
+
 # Deployment Server
 This is a small deployment server application.
 It is used to simply deploy packages either locally or remotely.
